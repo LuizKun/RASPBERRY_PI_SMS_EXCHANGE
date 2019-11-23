@@ -3,10 +3,11 @@
 - Receive and update SMS content on web page.
 - Send SMS to Phone number via web.
 - Management all received SMS.
+
 Link demo: https://youtu.be/GVYldJEaf5g
 
 ## Hardware
-- Raspberry Pi B (require Wifi/LAN support).
+- Raspberry Pi (Wifi/LAN support).
 - Module SIM 900.
 
 ## Setup project
