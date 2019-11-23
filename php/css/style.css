@@ -1,0 +1,260 @@
+.clear{clear:both;}
+body{
+	font-family: Calibri;
+	background-color:#f3f3f3;
+	margin : 0 0;
+}
+#header{
+	background-color:#ffffff;;
+	height:100px;
+}
+#header .wrapperheader{
+	margin:0px auto;
+	background-color:#ffffff;
+}
+#header .logo{
+	padding:10px 100px;
+	width:510px; /*padding => tru di 40 => 550-40,100-40*/
+	height:60px; /*chieu cao*/
+}
+#menu1{
+	background-color:#da3b01;
+	border-top:1px solid #4169E1;
+}
+
+#menu1 ul{
+	list-style-type: none;
+	margin : 0 auto;
+    overflow: hidden;
+    background-color:#003c71;
+	padding: 0 100px;
+}
+
+#menu1 ul .left{
+	float:left;
+	}
+#menu1 ul .right{
+	float:right;
+	}
+
+#menu1 ul li{
+    float: left;
+}
+
+/*hieu ung re chuot vao link*/
+#menu1 ul li a{
+	display: block;
+	font-family:Calibri;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#menu1 ul li a:hover{
+	background-color:white;
+	color: blue;
+}
+#menu1 ul li .active{
+	background-color:white;
+	color: blue;
+}
+
+#wrapper{
+	background-color: #ffffff;
+	}
+#wrapper .content{
+	margin:auto;
+	width:70%;
+	float:center;
+	background-color:#ffffff;
+	padding-bottom:30px;
+	padding-top:30px;
+	}
+#wrapper .luuy{
+	background-color:#01152E;
+	color:white;
+	padding:15px 20px;
+	width:93%;
+	font-size:20px;
+	}
+
+#danhsach{
+	
+	}
+
+#danhsach .buttontl{
+    background-color: #003c71;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+	border-radius: 8px;
+	margin-right:5px;}
+
+#danhsach .buttontl:hover{
+	background-color:#104E8B;
+	color:white;
+}
+
+
+
+
+#sms{
+	padding:0px;
+	}
+#sms .sdt{
+	margin-top:30px;
+	background-color:#4caf50;
+	width:160px;
+	padding:10px 20px;
+	}
+#sms .noidung{
+	border:#4caf50 solid 1px;
+	padding: 10px;
+	}
+#sms .time{
+	text-align:right;
+	background-color:#f1f1f1;
+	padding: 10px 10px;
+	height:40px;
+	}
+#sms .left{
+	float:left;
+}
+#sms .right{
+	float:right;
+	padding-top:5px;
+	}
+#sms .buttontl{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+	border-radius: 8px;
+	margin-right:5px;}
+
+#sms .buttontl:hover{
+	background-color:#3e8e41;
+	color:white;}
+
+#text{	
+	float:right;
+	padding:0px 0; /*thut le tren duoi trai phai 20px*/
+}
+#text .tieude{
+	color:black;
+	font-size:20px;
+	padding:10px 15px;
+}
+
+#text p{
+	padding:30px;
+	text-align: justify;
+	font-size:20px;
+	font-family:Helvetica;
+	}
+#topfooter{
+	background-color:#cccccc;	
+	padding:15px 100px;
+	font-size:20px;	
+	}
+#topfooter .left{
+	float : left;	
+	}
+#topfooter .right{
+	float:right;
+	}
+#footer{
+	background-color:#f2f2f2;
+	font-size:18px;
+	padding:30px 100px;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+.button3 {
+    background-color: white;
+    color: black;
+    border: 2px solid #f44336;
+}
+
+.button3:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+textarea{
+    width: 95%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+	margin: 0 10px;
+}
+input[type=submit] {
+    width: 20%;
+    background-color: #003c71;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #104E8B;
+}
+input[type=text], select {
+    width: 95%;
+    padding: 12px 20px;
+    margin: 8px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	background-color: #f8f8f8;
+}
+
+input[type=file]{
+    width: 50%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+}
+

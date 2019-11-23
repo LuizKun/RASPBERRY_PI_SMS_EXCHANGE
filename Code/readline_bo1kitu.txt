@@ -1,0 +1,7 @@
+in_file = open('/var/www/html/upload/sodienthoai.txt',"r")
+text = in_file.readline(10)
+print text
+text = text[:-1]
+print text
+in_file.close()
+
