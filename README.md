@@ -31,7 +31,7 @@ Reference:
 - https://github.com/InitialState/rpi-gps/wiki/2-Part-1.-Raspberry-Pi-Setup
 - https://table-info.blogspot.com/2013/06/gsm-shield-icomsat.html
 
-### Setup Server on Raspberry Pi
+### Setup HTTP Server on Raspberry Pi
 ```
 sudo apt-get install git-core
 sudo apt-get update
