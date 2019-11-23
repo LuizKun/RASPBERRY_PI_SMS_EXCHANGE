@@ -1,5 +1,5 @@
 # RASPBERRY_PI_SMS_EXCHANGE
-## Feature
+## Features
 - Receive and update SMS content on web page.
 - Send SMS to Phone number via web.
 - Management all received SMS.
@@ -10,9 +10,9 @@ Link demo: https://youtu.be/GVYldJEaf5g
 - Raspberry Pi (Wifi/LAN support).
 - Module SIM 900.
 
-## Setup project
+## Setup
 
-### Connect to wifi
+### Raspberry Pi connect to wifi
 ```
 sudo iwlist wlan0 scan
 sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
